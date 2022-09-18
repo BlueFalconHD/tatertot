@@ -12,6 +12,7 @@ jobs:
     - run: npm ci
     - run: node ./src/index.js
     - run: ls -a .
+    - run: pwd
   commit:
     name: "🥔 Commit to repository"
     runs-on: ubuntu-latest

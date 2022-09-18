@@ -11,6 +11,6 @@
   },
 
   "redirect": "https://shattereddisk.github.io/rickroll/rickroll.mp4",
-  "delay": 1000,
+  "delay": 10000,
   "iframe": "https://bluefalconhd.github.io/Bento/"
 }

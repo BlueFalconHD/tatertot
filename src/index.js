@@ -25,5 +25,4 @@ let html = `<!DOCTYPE html>
 </body>
 `;
 
-fs.writeFileSync("../index.html", html);
-console.log("🥔 Tatertot Saved");
+console.log(html)

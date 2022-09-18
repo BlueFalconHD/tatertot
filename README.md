@@ -34,6 +34,10 @@
 3. Enable github pages on the master branch.
 4. Profit.
 
+# 📼 Demo Video
+https://user-images.githubusercontent.com/72631767/190925594-22c67bfe-77a2-434c-a5cf-0bf01b117809.mp4
+
+
 # 🍡 How it Works
 This uses a GitHub action that runs a NodeJS script, found in `src`. This then commits the finished HTML to `index.html`, and then GitHub Pages will build that HTML file, allowing you to rickroll your friends.
 

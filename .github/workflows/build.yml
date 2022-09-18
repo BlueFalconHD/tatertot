@@ -2,7 +2,7 @@ on: [push]
 
 jobs:
   build:
-    name: "🥔 Build Static Tatertot"
+    name: "🥔 Build Static Tatertot & Push changes"
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -11,16 +11,8 @@ jobs:
         node-version: 16
     - run: npm ci
     - run: node ./src/index.js
-    - run: ls -a .
-    - run: pwd
-  commit:
-    name: "🥔 Commit to repository"
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - run: pwd
-    - run: ls -a
     - uses: EndBug/add-and-commit@v9
       with:
         default_author: github_actions
         message: '🥔 Update Tatertot Static Site'
+

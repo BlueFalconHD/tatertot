@@ -1,29 +1,22 @@
 <!DOCTYPE html>
-
 <head>
-  <title>Tatertot</title>
-  <meta content="Tatertot embed title" property="og:title" />
-  <meta content="Tatertot embed description" property="og:description" />
+  <title>Tatertot Page Title</title>
+  <meta content="Tatertot Title" property="og:title" />
+  <meta content="Tatertot Description" property="og:description" />
   <meta content="https://bluefalconhd.github.io/tatertot" property="og:url" />
-  <meta content="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F80and30.com%2Fwp-content%2Fuploads%2F2017%2F08%2F170808-Rick-Astley.png&f=1&nofb=1" property="og:image"/>
-  <meta content="#43B581" data-react-helmet="true" name="theme-color" />
-  <script async>
-    // -- CONFIG --
-    const delay = 100000 // 1 second
-    const url = "https://shattereddisk.github.io/rickroll/rickroll.mp4" // url to redirect to
-  </script>
+  <meta content="https://github.com/BlueFalconHD/tatertot/raw/master/assets/logo.png" property="og:image"/>
+  <meta content="#FFFFFF" data-react-helmet="true" name="theme-color" />
+  <style>
+    .body { width: 100vw; height: 100vh; padding: 0px; margin: 0px; overflow: hidden;};
+  </style>
 </head>
 
-<body>
-  <h1>Tatertot</h1>
-  tatertot ipsum dolor.
-
+<body class="body">
   <script async>
-    setTimeout(redir, delay);
-    function redir() {
-      window.location.replace(
-       url
-      );
-    }
+    setTimeout(() => {
+     window.location.replace("https://shattereddisk.github.io/rickroll/rickroll.mp4")
+    }, 1000);
   </script>
+
+  <iframe src="https://bluefalconhd.github.io/Bento/" style="box-shadow: none !important; width: 100vw; height: 100vh;"></iframe>
 </body>

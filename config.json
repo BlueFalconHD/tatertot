@@ -1,0 +1,16 @@
+{
+  "embed": {
+    "title": "Tatertot Title",
+    "description": "Tatertot Description",
+    "url": "https://bluefalconhd.github.io/tatertot",
+    "image": "https://github.com/BlueFalconHD/tatertot/raw/master/assets/logo.png",
+    "color": "#FFFFFF"
+  },
+  "page": {
+    "title": "Tatertot Page Title"
+  },
+
+  "redirect": "https://shattereddisk.github.io/rickroll/rickroll.mp4",
+  "delay": 1000,
+  "iframe": "https://bluefalconhd.github.io/Bento/"
+}

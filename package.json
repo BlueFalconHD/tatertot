@@ -1,0 +1,27 @@
+{
+  "name": "tatertot",
+  "version": "1.0.0",
+  "description": "Rickroll in style",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluefalconhd/tatertot.git"
+  },
+  "keywords": [
+    "rickroll"
+  ],
+  "author": "BlueFalconHD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluefalconhd/tatertot/issues"
+  },
+  "homepage": "https://github.com/bluefalconhd/tatertot#readme",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "prettier": "^2.7.1"
+  }
+}

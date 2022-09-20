@@ -1,4 +1,3 @@
-import config from "../config.json" assert { type: "json" };
 let url = window.location.href
 url = url.replace("https://", "")
 url = url.replace("github.io", "")

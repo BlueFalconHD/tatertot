@@ -9,4 +9,4 @@ function alerts() {
   console.log('🍴 Forked from https://github.com/bluefalconhd/tatertot')
 }
 
-setTimeout(alert, 10)
+alerts()
